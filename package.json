@@ -1,25 +1,19 @@
 {
-  "name": "videogular2",
+  "name": "videogular4ng7",
   "version": "0.0.0-semantically-released",
-  "description": "Videogular is a video application framework for desktop and mobile powered by Angular",
+  "description": "Videogular is a video application framework for desktop and mobile powered by Angular. This is a bootleg version compatible with Angular 7",
   "repository": {
     "type": "git",
-    "url": "https://github.com/videogular/videogular2"
-  },
-  "peerDependencies": {
-    "@angular/core": "^8.0.0",
-    "rxjs": "^6.3.0"
+    "url": "https://github.com/wideLandscape/videogular2.git"
   },
   "devDependencies": {
-    "@angular/animations": "^8.0.0",
-    "@angular/cli": "8.0.1",
-    "@angular/common": "^8.0.0",
-    "@angular/compiler": "^8.0.0",
-    "@angular/compiler-cli": "^8.0.0",
-    "@angular/core": "^8.0.0",
-    "@angular/platform-browser": "^8.0.0",
-    "@angular/platform-browser-dynamic": "^8.0.0",
-    "@angular/platform-server": "^8.0.0",
+    "@angular/animations": "7.2.0",
+    "@angular/cli": "^7.1.4",
+    "@angular/common": "7.2.0",
+    "@angular/compiler": "7.2.0",
+    "@angular/compiler-cli": "7.2.0",
+    "@angular/core": "7.2.0",
+    "@angular/platform-server": "7.2.0",
     "@types/bluebird": "^3.5.25",
     "@types/core-js": "0.9.46",
     "@types/jasmine": "^3.3.1",
@@ -46,7 +40,7 @@
     "semantic-release": "6.3.2",
     "systemjs": "^0.20.19",
     "tslint": "5.17.0",
-    "typescript": "~3.4.5",
+    "typescript": "3.2.4",
     "validate-commit-msg": "2.12.1",
     "watch": "1.0.2",
     "zone.js": "0.9.1"
@@ -98,7 +92,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/videogular/videogular2/issues"
+    "url": "https://github.com/wideLandscape/videogular2/issues"
   },
   "config": {
     "commitizen": {
@@ -133,5 +127,9 @@
       "autoFix": false
     }
   },
-  "homepage": "http://videogular.com"
+  "homepage": "http://videogular.com",
+  "dependencies": {
+    "@angular/platform-browser": "7.2.0",
+    "@angular/platform-browser-dynamic": "7.2.0"
+  }
 }
